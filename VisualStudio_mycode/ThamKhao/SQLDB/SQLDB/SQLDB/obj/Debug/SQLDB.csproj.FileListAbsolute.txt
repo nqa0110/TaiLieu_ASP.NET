@@ -1,0 +1,5 @@
+Z:\Visual Studio_mycode\SQLDB\SQLDB\bin\Debug\SQLDB.dll
+Z:\Visual Studio_mycode\SQLDB\SQLDB\bin\Debug\SQLDB.pdb
+Z:\Visual Studio_mycode\SQLDB\SQLDB\obj\Debug\SQLDB.csprojResolveAssemblyReference.cache
+Z:\Visual Studio_mycode\SQLDB\SQLDB\obj\Debug\SQLDB.dll
+Z:\Visual Studio_mycode\SQLDB\SQLDB\obj\Debug\SQLDB.pdb
