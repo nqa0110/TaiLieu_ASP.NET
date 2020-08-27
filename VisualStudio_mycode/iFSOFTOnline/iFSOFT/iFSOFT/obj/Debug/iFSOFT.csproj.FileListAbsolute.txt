@@ -77,3 +77,7 @@ E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT\bin\Microsoft.
 E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT\obj\Debug\iFSOFT.csprojResolveAssemblyReference.cache
 E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT\obj\Debug\iFSOFT.dll
 E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT\obj\Debug\iFSOFT.pdb
+E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT\bin\SQLDB.dll
+E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT\bin\SQLDB.pdb
+E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT\bin\iFSOFT_DAL.dll
+E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT\bin\iFSOFT_DAL.pdb

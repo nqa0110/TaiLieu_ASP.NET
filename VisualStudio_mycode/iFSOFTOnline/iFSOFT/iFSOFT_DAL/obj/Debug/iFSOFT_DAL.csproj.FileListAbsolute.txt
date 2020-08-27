@@ -1,0 +1,6 @@
+E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT_DAL\bin\Debug\iFSOFT_DAL.dll
+E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT_DAL\bin\Debug\iFSOFT_DAL.pdb
+E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT_DAL\bin\Debug\SQLDB.dll
+E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT_DAL\bin\Debug\SQLDB.pdb
+E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT_DAL\obj\Debug\iFSOFT_DAL.dll
+E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT_DAL\obj\Debug\iFSOFT_DAL.pdb

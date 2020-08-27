@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{9AB4792A-1042-4B7A-8F2F-EFE9A09CCD9A}</ProjectGuid>
+    <ProjectGuid>{FD7F4786-2DAA-4E1B-91E5-DA59B68506ED}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -76,6 +76,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SQLDB, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\VisualStudio_mycode\New folder\SQLDB\SQLDB\bin\Debug\SQLDB.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -187,14 +191,15 @@
     <Content Include="admin\Contact\ContactControl.ascx" />
     <Content Include="admin\Login.ascx" />
     <Content Include="admin\Menu.ascx" />
+    <Content Include="admin\News\NewsCategory.ascx" />
     <Content Include="admin\News\NewsControl.ascx" />
+    <Content Include="admin\News\NewsDetail.ascx" />
     <Content Include="admin\Product\ProductControl.ascx" />
     <Content Include="admin\User\UserControl.ascx" />
     <Content Include="Content\admin.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="display\displayControl.ascx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -288,12 +293,26 @@
     <Compile Include="admin\Menu.ascx.designer.cs">
       <DependentUpon>Menu.ascx</DependentUpon>
     </Compile>
+    <Compile Include="admin\News\NewsCategory.ascx.cs">
+      <DependentUpon>NewsCategory.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\News\NewsCategory.ascx.designer.cs">
+      <DependentUpon>NewsCategory.ascx</DependentUpon>
+    </Compile>
     <Compile Include="admin\News\NewsControl.ascx.cs">
       <DependentUpon>NewsControl.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="admin\News\NewsControl.ascx.designer.cs">
       <DependentUpon>NewsControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\News\NewsDetail.ascx.cs">
+      <DependentUpon>NewsDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\News\NewsDetail.ascx.designer.cs">
+      <DependentUpon>NewsDetail.ascx</DependentUpon>
     </Compile>
     <Compile Include="admin\Product\ProductControl.ascx.cs">
       <DependentUpon>ProductControl.ascx</DependentUpon>
@@ -309,9 +328,9 @@
     <Compile Include="admin\User\UserControl.ascx.designer.cs">
       <DependentUpon>UserControl.ascx</DependentUpon>
     </Compile>
+    <Content Include="App_Code\clsContact.cs" />
     <Content Include="App_Code\clsNews.cs" />
     <Content Include="App_Code\clsProduct.cs" />
-    <Content Include="App_Code\clsContact.cs" />
     <Content Include="App_Code\clsUser.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
@@ -323,13 +342,6 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="display\displayControl.ascx.cs">
-      <DependentUpon>displayControl.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="display\displayControl.ascx.designer.cs">
-      <DependentUpon>displayControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -362,6 +374,12 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\iFSOFT_DAL\iFSOFT_DAL.csproj">
+      <Project>{9340d986-23e2-430d-bcee-8838895bb771}</Project>
+      <Name>iFSOFT_DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -375,9 +393,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>7254</DevelopmentServerPort>
+          <DevelopmentServerPort>3975</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:7254/</IISUrl>
+          <IISUrl>http://localhost:3975/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

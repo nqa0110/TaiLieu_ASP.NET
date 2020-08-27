@@ -6,6 +6,7 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
+using System.Configuration;
 
 namespace iFSOFT
 {
@@ -16,6 +17,8 @@ namespace iFSOFT
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            //Connect=> Global
+            SQLDB.SQLDB.ConnectionString = ConfigurationManager.ConnectionStrings["Connect"].ConnectionString;
         }
     }
 }

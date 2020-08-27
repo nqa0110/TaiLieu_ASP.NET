@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{98382455-D9FB-481E-A374-3B9F878430F5}</ProjectGuid>
+    <ProjectGuid>{7C670812-302B-4C92-8887-38DE2380366C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>iFSOFT.Dal</RootNamespace>
-    <AssemblyName>iFSOFT.Dal</AssemblyName>
+    <RootNamespace>iFSOFT.DAL</RootNamespace>
+    <AssemblyName>iFSOFT.DAL</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SQLDB">
+      <HintPath>..\..\..\..\..\VisualStudio_mycode\New folder\SQLDB\SQLDB\bin\Debug\SQLDB.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

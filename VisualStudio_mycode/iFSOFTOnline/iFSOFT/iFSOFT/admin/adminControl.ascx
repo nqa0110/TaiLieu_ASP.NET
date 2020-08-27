@@ -6,8 +6,7 @@
         <td style="width:200px;">
             <uc1:Menu ID="Menu1" runat="server" />
         </td>
-        <td style="width:10px;">&nbsp</td>
+        <td style="width:10px;">&nbsp;</td>
         <td>Content</td>
     </tr>
-
 </table>

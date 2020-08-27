@@ -11,7 +11,6 @@ namespace iFSOFT
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //dẫn đến control => adminControl vì adminControl sẽ quản lý toàn bộ thư mục admin
             Controls.Add(LoadControl("/admin/adminControl.ascx"));
         }
     }

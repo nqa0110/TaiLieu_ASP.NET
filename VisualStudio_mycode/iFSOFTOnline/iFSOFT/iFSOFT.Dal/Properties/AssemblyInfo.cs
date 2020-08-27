@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("iFSOFT.Dal")]
+[assembly: AssemblyTitle("iFSOFT.DAL")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("iFSOFT.Dal")]
+[assembly: AssemblyProduct("iFSOFT.DAL")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("98382455-d9fb-481e-a374-3b9f878430f5")]
+[assembly: Guid("7c670812-302b-4c92-8887-38de2380366c")]
 
 // Version information for an assembly consists of the following four values:
 //
