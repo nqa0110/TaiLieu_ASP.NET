@@ -12,7 +12,7 @@ namespace iFSOFT_DAL
     {
         public DataTable GetList()
         {
-            SqlCommand sqlCom = new SqlCommand("Select * From News_Category");
+            SqlCommand sqlCom = new SqlCommand("Select * from News_Categories");
             sqlCom.CommandType = CommandType.Text;
             return SQLDB.SQLDB.GetData(sqlCom);
         }

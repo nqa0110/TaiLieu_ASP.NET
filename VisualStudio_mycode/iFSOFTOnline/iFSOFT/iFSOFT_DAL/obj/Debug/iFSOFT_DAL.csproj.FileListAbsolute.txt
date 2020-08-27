@@ -4,3 +4,9 @@ E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT_DAL\bin\Debug\
 E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT_DAL\bin\Debug\SQLDB.pdb
 E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT_DAL\obj\Debug\iFSOFT_DAL.dll
 E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT_DAL\obj\Debug\iFSOFT_DAL.pdb
+Z:\Luu Git\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT_DAL\bin\Debug\iFSOFT_DAL.dll
+Z:\Luu Git\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT_DAL\bin\Debug\iFSOFT_DAL.pdb
+Z:\Luu Git\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT_DAL\bin\Debug\SQLDB.pdb
+Z:\Luu Git\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT_DAL\obj\Debug\iFSOFT_DAL.csprojResolveAssemblyReference.cache
+Z:\Luu Git\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT_DAL\obj\Debug\iFSOFT_DAL.dll
+Z:\Luu Git\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT_DAL\obj\Debug\iFSOFT_DAL.pdb

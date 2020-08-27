@@ -1,7 +1,0 @@
-E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT.DAL\obj\Debug\iFSOFT.DAL.csprojResolveAssemblyReference.cache
-E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT.DAL\bin\Debug\iFSOFT.DAL.dll
-E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT.DAL\bin\Debug\iFSOFT.DAL.pdb
-E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT.DAL\bin\Debug\SQLDB.dll
-E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT.DAL\bin\Debug\SQLDB.pdb
-E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT.DAL\obj\Debug\iFSOFT.DAL.dll
-E:\TaiLieu_ASP.NET\VisualStudio_mycode\iFSOFTOnline\iFSOFT\iFSOFT.DAL\obj\Debug\iFSOFT.DAL.pdb

@@ -11,7 +11,7 @@ namespace iFSOFT.admin.News
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Controls.Add(LoadControl("NewsCategory.ascx"));
         }
     }
 }

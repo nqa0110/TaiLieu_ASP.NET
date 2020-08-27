@@ -7,14 +7,14 @@
                 <tr>
                     <td style="width:300px;">Tên Danh Mục</td>
                     <td style="width:50px">Order</td>
-                    <td style="width:100px;">Trạng Thái</td>
+                    <td style="width:100px;">Trạng thái</td>
                     <td></td>
                 </tr>
         </HeaderTemplate>
         <ItemTemplate>
             <tr>
-                <td><%#:Eval("CategoryName") %></td>
-                <td><%#:Eval("Order") %></td>
+                <td><%#:Eval("vName") %></td>
+                <td><%#:Eval("vOrder") %></td>
                 <td><%#:Eval("Active") %></td>
             </tr>
         </ItemTemplate>

@@ -22,8 +22,9 @@ namespace iFSOFT.admin.News
         }
         void LoadData()
         {
+            //Truy vấn từ GetList() trong clsNews==>DataSource==>Đổ dữ liệu==>rptNewsCategory
             rptNewsCategory.DataSource = _news.GetList();
-            rptNewsCategory.DataBind();
+            rptNewsCategory.DataBind();// Chạy
         }
     }
 }
