@@ -26,5 +26,10 @@ namespace iFSOFT.admin.News
             rptNewsCategory.DataSource = _news.GetList();
             rptNewsCategory.DataBind();// Chạy
         }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
